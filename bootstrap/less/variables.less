@@ -699,7 +699,8 @@
 
 @panel-bg:                    #fff;
 @panel-body-padding:          15px;
-@panel-heading-padding:       10px 15px;
+@panel-heading-padding:       10px 5px; //10px 15px;
+@panel-heading-margin:        0 10px; // added by kazu
 @panel-footer-padding:        @panel-heading-padding;
 @panel-border-radius:         @border-radius-base;
 
@@ -711,7 +712,7 @@
 @panel-default-border:        #ddd;
 @panel-default-heading-bg:    #f5f5f5;
 
-@panel-primary-text:          #fff;
+@panel-primary-text:          @brand-primary; // #fff;
 @panel-primary-border:        @brand-primary;
 @panel-primary-heading-bg:    @brand-primary;
 
@@ -791,7 +792,7 @@
 //** Text color of current page in the breadcrumb
 @breadcrumb-active-color:       @gray-light;
 //** Textual separator for between breadcrumb elements
-@breadcrumb-separator:          ">";
+@breadcrumb-separator:          "/";
 
 
 //== Carousel

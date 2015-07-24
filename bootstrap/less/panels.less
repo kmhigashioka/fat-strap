@@ -8,8 +8,8 @@
   margin-bottom: @line-height-computed;
   background-color: @panel-bg;
   border: 1px solid transparent;
-  border-radius: @panel-border-radius;
-  .box-shadow(0 1px 1px rgba(0,0,0,.05));
+  border-radius: @panel-border-radius - 2px;
+  .box-shadow(0 3px 1px rgba(0,0,0,.05));
 }
 
 // Panel contents
@@ -20,8 +20,9 @@
 
 // Optional heading
 .panel-heading {
+  margin: @panel-heading-margin;
   padding: @panel-heading-padding;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
   .border-top-radius((@panel-border-radius - 1));
 
   > .dropdown .dropdown-toggle {
@@ -47,8 +48,9 @@
 
 // Optional footer (stays gray in every modifier class)
 .panel-footer {
+  margin: @panel-heading-margin;
   padding: @panel-footer-padding;
-  background-color: @panel-footer-bg;
+  background-color: transparent; //@panel-footer-bg;
   border-top: 1px solid @panel-inner-border;
   .border-bottom-radius((@panel-border-radius - 1));
 }
@@ -252,20 +254,23 @@
 
 // Contextual variations
 .panel-default {
-  .panel-variant(@panel-default-border; @panel-default-text; @panel-default-heading-bg; @panel-default-border);
+  //.panel-variant(@panel-default-border; @panel-default-text; @panel-default-heading-bg; @panel-default-border);
+  .panel-variant(transparent; @panel-default-text; transparent; @panel-default-border);
 }
 .panel-primary {
-  .panel-variant(@panel-primary-border; @panel-primary-text; @panel-primary-heading-bg; @panel-primary-border);
+  //.panel-variant(@panel-primary-border; @panel-primary-text; @panel-primary-heading-bg; @panel-primary-border);
+  .panel-variant(transparent; @panel-primary-text; transparent; @panel-primary-border);
 }
 .panel-success {
-  .panel-variant(@panel-success-border; @panel-success-text; @panel-success-heading-bg; @panel-success-border);
+  //.panel-variant(@panel-success-border; @panel-success-text; @panel-success-heading-bg; @panel-success-border);
+  .panel-variant(transparent; @panel-success-text; transparent; @panel-success-border);
 }
 .panel-info {
-  .panel-variant(@panel-info-border; @panel-info-text; @panel-info-heading-bg; @panel-info-border);
+  .panel-variant(transparent; @panel-info-text; transparent; @panel-info-border);
 }
 .panel-warning {
-  .panel-variant(@panel-warning-border; @panel-warning-text; @panel-warning-heading-bg; @panel-warning-border);
+  .panel-variant(transparent; @panel-warning-text; transparent; @panel-warning-border);
 }
 .panel-danger {
-  .panel-variant(@panel-danger-border; @panel-danger-text; @panel-danger-heading-bg; @panel-danger-border);
+  .panel-variant(transparent; @panel-danger-text; transparent; @panel-danger-border);
 }

@@ -24,7 +24,7 @@ Same as [Bootstrap](http://getbootstrap.com/css/).
 <input class="form-control" type="text" />
 ```
 
-[Demo]()
+[Demo](http://kazupooot.github.io/fat-strap/)
 ---
 
 
