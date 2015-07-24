@@ -21,8 +21,26 @@ How to Use
 ----------
 Same as [Bootstrap](http://getbootstrap.com/css/).
 ```
-<input class="form-control" type="text" />
+<form class="form-horizontal">
+  <fieldset>
+    <div class="form-group">
+      <div class="col-lg-10">
+        <input class="form-control" placeholder="Username" type="text">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+    </fieldset>
+</form>
 ```
+
+Output:
+
+![](bootstrap/form.png)
 
 [Demo](http://kazupooot.github.io/fat-strap/)
 ---
