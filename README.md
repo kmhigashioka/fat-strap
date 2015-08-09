@@ -50,8 +50,8 @@ Author
 ------
 Kazuhito Higashioka
 
-+ http://github.com/kazupooot
-+ http://twitter.com/kazupooot
++ [@kazupooot](https://github.com/kazupooot)
++ [@kazupooot](https://twitter.com/kazupooot)
 
 Thanks
 ------
@@ -59,7 +59,7 @@ Thanks
 
 [Thomas Park](http://www.thomaspark.co/) for Bootswatch theme.
 
-[Fatima Mae](https://twitter.com/patiimamae) ummm, for <3. Hihi.
+[Fatima Mae](https://twitter.com/patiimamae) for suggestions and inspiration. :)
 
 
 
