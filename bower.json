@@ -1,0 +1,20 @@
+{
+  "name": "fat-strap",
+  "version": "3.3.4",
+  "description": "A Bootstrap extension. Fed with love.",
+  "author": "Kazuhito Higashioka",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kazupooot/fat-strap.git"
+  },
+  "license": "MIT",
+  "ignore": [
+    ".git",
+    "bootstrap",
+    "less",
+    "index.html",
+    "README.md",
+    ".gitignore",
+    ".gitattributes"
+  ]
+}
