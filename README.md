@@ -8,6 +8,11 @@ Get Started
 -----
 Download the `bootstrap.min.css` or `bootstrap.css` file then include in your project.
 
+Install via Bower
+```
+bower install fat-strap
+```
+
 ```
 <head>
   ...
