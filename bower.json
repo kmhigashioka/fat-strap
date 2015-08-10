@@ -7,6 +7,7 @@
     "type": "git",
     "url": "git://github.com/kazupooot/fat-strap.git"
   },
+  "dependencies": {},
   "license": "MIT",
   "ignore": [
     ".git",
